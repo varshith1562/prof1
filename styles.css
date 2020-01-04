@@ -1,0 +1,123 @@
+#home{
+    height:100vh;
+}
+body{
+   background-color: #313131;
+   font-family: Ubuntu;
+   color: white;
+   text-align: center;
+}
+.container-fluid{
+  padding: 2% 6%;
+}
+.navbar-brand{
+  font-size: 3rem;
+}
+.nav-item{
+  font-size: 1.3rem;
+  padding-left: 3%;
+}
+.head{
+  margin-top: 10%;
+  padding:3% 10%;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.btn{
+  margin-top: 1.5%;
+  padding:1% 6%;
+}
+.btn1{
+  margin-left: 2%;
+}
+.hea{
+  display:inline;
+  font-size:4rem;
+}
+.col1{
+  font-size: 1.3rem;
+  padding: 5%;
+}
+.p1{
+  font-size:2rem;
+  margin-top:1.5%
+}
+img{
+  width:500px;
+  height:430px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 2%;
+}
+.para{
+  font-size: 1.3rem;
+}
+.card{
+  color:black;
+  padding: 2% 1.3%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.title{
+  font-size: 2.5rem;
+}
+@media only screen and (max-width:991px){
+  .head{
+    margin-top: 40%;
+  }
+  .nav-item{
+    font-size: 2rem;
+  }
+  .navbar-brand{
+    padding: 4% 0;
+    font-size: 5rem;
+  }
+  .navbar-toggler{
+    font-size: 2rem;
+  }
+  .p1{
+    font-size: 3rem;
+    margin-top: 4%;
+  }
+  .hea{
+    font-size: 5rem;
+  }
+  .btn{
+    margin-top: 5%;
+    font-size: 3rem;
+  }
+  .col1{
+    font-size: 2.5rem;
+  }
+  .hea1{
+    font-size: 3.5rem;
+  }
+  .con{
+    font-size: 2rem;
+  }
+  .link{
+    font-size: 2rem;
+  }
+  .icon{
+    font-size: 1.5rem;
+  }
+  img{
+    margin-top: 6%;
+    width:650px;
+    height: 530px;
+  }
+  .para{
+    font-size: 2rem;
+    margin-bottom:0;
+  }
+  .btn1{
+    margin-left:3%;
+  }
+  .title{
+    font-size: 3rem;
+  }
+  .card{
+    font-size: 2rem;
+  }
+}
